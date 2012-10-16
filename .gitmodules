@@ -1,0 +1,6 @@
+[submodule "submodules/AFNetworking"]
+	path = submodules/AFNetworking
+	url = git://github.com/AFNetworking/AFNetworking.git
+[submodule "submodules/PersistenceQueue"]
+	path = submodules/PersistenceQueue
+	url = git@github.com:cetauri/PersistenceQueue.git
