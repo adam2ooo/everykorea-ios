@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDB72FC162D9D1800DDCBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB72FB162D9D1800DDCBFA /* UIKit.framework */; };
+		AFDB72FE162D9D1800DDCBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB72FD162D9D1800DDCBFA /* Foundation.framework */; };
+		AFDB7300162D9D1800DDCBFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB72FF162D9D1800DDCBFA /* CoreGraphics.framework */; };
+		AFDB7306162D9D1800DDCBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFDB7304162D9D1800DDCBFA /* InfoPlist.strings */; };
+		AFDB7308162D9D1900DDCBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB7307162D9D1800DDCBFA /* main.m */; };
+		AFDB730C162D9D1900DDCBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB730B162D9D1900DDCBFA /* AppDelegate.m */; };
+		AFDB730E162D9D1900DDCBFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB730D162D9D1900DDCBFA /* Default.png */; };
+		AFDB7310162D9D1900DDCBFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB730F162D9D1900DDCBFA /* Default@2x.png */; };
+		AFDB7312162D9D1900DDCBFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB7311162D9D1900DDCBFA /* Default-568h@2x.png */; };
+		AFDB7315162D9D1900DDCBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB7314162D9D1900DDCBFA /* ViewController.m */; };
+		AFDB7318162D9D1900DDCBFA /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDB7316162D9D1900DDCBFA /* ViewController_iPhone.xib */; };
+		AFDB731B162D9D1900DDCBFA /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDB7319162D9D1900DDCBFA /* ViewController_iPad.xib */; };
+		AFDB7323162D9D1900DDCBFA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB7322162D9D1900DDCBFA /* SenTestingKit.framework */; };
+		AFDB7324162D9D1900DDCBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB72FB162D9D1800DDCBFA /* UIKit.framework */; };
+		AFDB7325162D9D1900DDCBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB72FD162D9D1800DDCBFA /* Foundation.framework */; };
+		AFDB732D162D9D1900DDCBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFDB732B162D9D1900DDCBFA /* InfoPlist.strings */; };
+		AFDB7330162D9D1900DDCBFA /* everykorea_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB732F162D9D1900DDCBFA /* everykorea_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDB7326162D9D1900DDCBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDB72EE162D9D1800DDCBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDB72F6162D9D1800DDCBFA;
+			remoteInfo = "everykorea-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFDB72F7162D9D1800DDCBFA /* everykorea-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everykorea-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB72FB162D9D1800DDCBFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFDB72FD162D9D1800DDCBFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFDB72FF162D9D1800DDCBFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFDB7303162D9D1800DDCBFA /* everykorea-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "everykorea-ios-Info.plist"; sourceTree = "<group>"; };
+		AFDB7305162D9D1800DDCBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFDB7307162D9D1800DDCBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB7309162D9D1900DDCBFA /* everykorea-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "everykorea-ios-Prefix.pch"; sourceTree = "<group>"; };
+		AFDB730A162D9D1900DDCBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFDB730B162D9D1900DDCBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFDB730D162D9D1900DDCBFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFDB730F162D9D1900DDCBFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFDB7311162D9D1900DDCBFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFDB7313162D9D1900DDCBFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFDB7314162D9D1900DDCBFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFDB7317162D9D1900DDCBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AFDB731A162D9D1900DDCBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		AFDB7321162D9D1900DDCBFA /* everykorea-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "everykorea-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB7322162D9D1900DDCBFA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AFDB732A162D9D1900DDCBFA /* everykorea-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "everykorea-iosTests-Info.plist"; sourceTree = "<group>"; };
+		AFDB732C162D9D1900DDCBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFDB732E162D9D1900DDCBFA /* everykorea_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = everykorea_iosTests.h; sourceTree = "<group>"; };
+		AFDB732F162D9D1900DDCBFA /* everykorea_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = everykorea_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDB72F4162D9D1800DDCBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB72FC162D9D1800DDCBFA /* UIKit.framework in Frameworks */,
+				AFDB72FE162D9D1800DDCBFA /* Foundation.framework in Frameworks */,
+				AFDB7300162D9D1800DDCBFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDB731D162D9D1900DDCBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB7323162D9D1900DDCBFA /* SenTestingKit.framework in Frameworks */,
+				AFDB7324162D9D1900DDCBFA /* UIKit.framework in Frameworks */,
+				AFDB7325162D9D1900DDCBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDB72EC162D9D1800DDCBFA = {
+			isa = PBXGroup;
+			children = (
+				AFDB7301162D9D1800DDCBFA /* everykorea-ios */,
+				AFDB7328162D9D1900DDCBFA /* everykorea-iosTests */,
+				AFDB72FA162D9D1800DDCBFA /* Frameworks */,
+				AFDB72F8162D9D1800DDCBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDB72F8162D9D1800DDCBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB72F7162D9D1800DDCBFA /* everykorea-ios.app */,
+				AFDB7321162D9D1900DDCBFA /* everykorea-iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDB72FA162D9D1800DDCBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB72FB162D9D1800DDCBFA /* UIKit.framework */,
+				AFDB72FD162D9D1800DDCBFA /* Foundation.framework */,
+				AFDB72FF162D9D1800DDCBFA /* CoreGraphics.framework */,
+				AFDB7322162D9D1900DDCBFA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFDB7301162D9D1800DDCBFA /* everykorea-ios */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB730A162D9D1900DDCBFA /* AppDelegate.h */,
+				AFDB730B162D9D1900DDCBFA /* AppDelegate.m */,
+				AFDB7313162D9D1900DDCBFA /* ViewController.h */,
+				AFDB7314162D9D1900DDCBFA /* ViewController.m */,
+				AFDB7316162D9D1900DDCBFA /* ViewController_iPhone.xib */,
+				AFDB7319162D9D1900DDCBFA /* ViewController_iPad.xib */,
+				AFDB7302162D9D1800DDCBFA /* Supporting Files */,
+			);
+			path = "everykorea-ios";
+			sourceTree = "<group>";
+		};
+		AFDB7302162D9D1800DDCBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB7303162D9D1800DDCBFA /* everykorea-ios-Info.plist */,
+				AFDB7304162D9D1800DDCBFA /* InfoPlist.strings */,
+				AFDB7307162D9D1800DDCBFA /* main.m */,
+				AFDB7309162D9D1900DDCBFA /* everykorea-ios-Prefix.pch */,
+				AFDB730D162D9D1900DDCBFA /* Default.png */,
+				AFDB730F162D9D1900DDCBFA /* Default@2x.png */,
+				AFDB7311162D9D1900DDCBFA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFDB7328162D9D1900DDCBFA /* everykorea-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB732E162D9D1900DDCBFA /* everykorea_iosTests.h */,
+				AFDB732F162D9D1900DDCBFA /* everykorea_iosTests.m */,
+				AFDB7329162D9D1900DDCBFA /* Supporting Files */,
+			);
+			path = "everykorea-iosTests";
+			sourceTree = "<group>";
+		};
+		AFDB7329162D9D1900DDCBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB732A162D9D1900DDCBFA /* everykorea-iosTests-Info.plist */,
+				AFDB732B162D9D1900DDCBFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDB72F6162D9D1800DDCBFA /* everykorea-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB7333162D9D1900DDCBFA /* Build configuration list for PBXNativeTarget "everykorea-ios" */;
+			buildPhases = (
+				AFDB72F3162D9D1800DDCBFA /* Sources */,
+				AFDB72F4162D9D1800DDCBFA /* Frameworks */,
+				AFDB72F5162D9D1800DDCBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "everykorea-ios";
+			productName = "everykorea-ios";
+			productReference = AFDB72F7162D9D1800DDCBFA /* everykorea-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDB7320162D9D1900DDCBFA /* everykorea-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB7336162D9D1900DDCBFA /* Build configuration list for PBXNativeTarget "everykorea-iosTests" */;
+			buildPhases = (
+				AFDB731C162D9D1900DDCBFA /* Sources */,
+				AFDB731D162D9D1900DDCBFA /* Frameworks */,
+				AFDB731E162D9D1900DDCBFA /* Resources */,
+				AFDB731F162D9D1900DDCBFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDB7327162D9D1900DDCBFA /* PBXTargetDependency */,
+			);
+			name = "everykorea-iosTests";
+			productName = "everykorea-iosTests";
+			productReference = AFDB7321162D9D1900DDCBFA /* everykorea-iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDB72EE162D9D1800DDCBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = everykorea;
+			};
+			buildConfigurationList = AFDB72F1162D9D1800DDCBFA /* Build configuration list for PBXProject "everykorea-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFDB72EC162D9D1800DDCBFA;
+			productRefGroup = AFDB72F8162D9D1800DDCBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDB72F6162D9D1800DDCBFA /* everykorea-ios */,
+				AFDB7320162D9D1900DDCBFA /* everykorea-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDB72F5162D9D1800DDCBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB7306162D9D1800DDCBFA /* InfoPlist.strings in Resources */,
+				AFDB730E162D9D1900DDCBFA /* Default.png in Resources */,
+				AFDB7310162D9D1900DDCBFA /* Default@2x.png in Resources */,
+				AFDB7312162D9D1900DDCBFA /* Default-568h@2x.png in Resources */,
+				AFDB7318162D9D1900DDCBFA /* ViewController_iPhone.xib in Resources */,
+				AFDB731B162D9D1900DDCBFA /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDB731E162D9D1900DDCBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB732D162D9D1900DDCBFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFDB731F162D9D1900DDCBFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDB72F3162D9D1800DDCBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB7308162D9D1900DDCBFA /* main.m in Sources */,
+				AFDB730C162D9D1900DDCBFA /* AppDelegate.m in Sources */,
+				AFDB7315162D9D1900DDCBFA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDB731C162D9D1900DDCBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB7330162D9D1900DDCBFA /* everykorea_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDB7327162D9D1900DDCBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDB72F6162D9D1800DDCBFA /* everykorea-ios */;
+			targetProxy = AFDB7326162D9D1900DDCBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFDB7304162D9D1800DDCBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB7305162D9D1800DDCBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFDB7316162D9D1900DDCBFA /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB7317162D9D1900DDCBFA /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AFDB7319162D9D1900DDCBFA /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB731A162D9D1900DDCBFA /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		AFDB732B162D9D1900DDCBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB732C162D9D1900DDCBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDB7331162D9D1900DDCBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDB7332162D9D1900DDCBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDB7334162D9D1900DDCBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "everykorea-ios/everykorea-ios-Prefix.pch";
+				INFOPLIST_FILE = "everykorea-ios/everykorea-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFDB7335162D9D1900DDCBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "everykorea-ios/everykorea-ios-Prefix.pch";
+				INFOPLIST_FILE = "everykorea-ios/everykorea-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFDB7337162D9D1900DDCBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/everykorea-ios.app/everykorea-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "everykorea-ios/everykorea-ios-Prefix.pch";
+				INFOPLIST_FILE = "everykorea-iosTests/everykorea-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AFDB7338162D9D1900DDCBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/everykorea-ios.app/everykorea-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "everykorea-ios/everykorea-ios-Prefix.pch";
+				INFOPLIST_FILE = "everykorea-iosTests/everykorea-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDB72F1162D9D1800DDCBFA /* Build configuration list for PBXProject "everykorea-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB7331162D9D1900DDCBFA /* Debug */,
+				AFDB7332162D9D1900DDCBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDB7333162D9D1900DDCBFA /* Build configuration list for PBXNativeTarget "everykorea-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB7334162D9D1900DDCBFA /* Debug */,
+				AFDB7335162D9D1900DDCBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFDB7336162D9D1900DDCBFA /* Build configuration list for PBXNativeTarget "everykorea-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB7337162D9D1900DDCBFA /* Debug */,
+				AFDB7338162D9D1900DDCBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDB72EE162D9D1800DDCBFA /* Project object */;
+}
